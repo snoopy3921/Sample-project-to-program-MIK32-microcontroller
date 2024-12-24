@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+openocd
+*.hex
+*.code-workspace
+dist
+build
+mik32_upload.spec
