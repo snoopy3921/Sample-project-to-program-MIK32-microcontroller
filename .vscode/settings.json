@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "mik32_memory_map.h": "c",
+        "main.h": "c",
+        "mik32_hal_usart.h": "c",
+        "xprintf.h": "c",
+        "mik32_hal_irq.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "uart_lib.h": "c",
+        "cstdarg": "c"
+    }
+}
