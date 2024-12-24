@@ -19,6 +19,14 @@
 + Mik32-hal (https://github.com/MikronMIK32/mik32-hal)
 + Mik32-uploader (https://github.com/MikronMIK32/mik32-uploader)
 
+Для изменения параметры загрузки
+Раскомментируйте и измените загрузочный контакт на плате.
+```Makefile
+  LDFILE 		= $(SHARED_DIR)/ldscripts/spifi.lds
+  #LDFILE 		= $(SHARED_DIR)/ldscripts/eeprom.lds
+  #LDFILE 		= $(SHARED_DIR)/ldscripts/ram.lds
+```
+
 Для компиляции проекта: 
 ```
   $ make
